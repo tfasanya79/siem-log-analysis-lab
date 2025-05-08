@@ -116,13 +116,3 @@ Feel free to fork, improve, or ask questions via issues. This lab is meant to ev
 
 ---
 
-## ✅ What To Do Next
-
-1. Copy and paste this content into your `README.md` file.
-2. Stage, commit, and push to GitHub:
-
-```bash
-git add README.md
-git commit -m "Add project README overview"
-git push
-```

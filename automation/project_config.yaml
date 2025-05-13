@@ -1,0 +1,31 @@
+project:
+  title: "SIEM Lab Progress"
+
+labels:
+  - name: "setup"
+    color: "f9d0c4"
+  - name: "automation"
+    color: "c2e0c6"
+  - name: "completed"
+    color: "d4c5f9"
+
+issues:
+  - title: "Install VMware Workstation Pro"
+    body: "Set up VMware Workstation Pro for running VMs"
+    labels: ["setup"]
+
+  - title: "Install Kali Linux"
+    body: "Install Kali Linux in VMware for red team simulation"
+    labels: ["setup", "automation"]
+
+  - title: "Set up Wazuh Server"
+    body: "Deploy Wazuh Server in VirtualBox for SIEM"
+    labels: ["setup"]
+
+  - title: "Deploy Wazuh Agent to Windows 10"
+    body: "Install and configure Wazuh agent on Windows 10 VM"
+    labels: ["automation"]
+
+  - title: "Deploy Wazuh Agent to Ubuntu Endpoint"
+    body: "Install and configure Wazuh agent on Ubuntu Desktop VM"
+    labels: ["automation"]

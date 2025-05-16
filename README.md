@@ -1,4 +1,3 @@
-
 # SIEM Log Analysis Lab
 
 [![CI](https://github.com/tfasanya79/siem-log-analysis-lab/actions/workflows/coverage.yml/badge.svg)](https://github.com/tfasanya79/siem-log-analysis-lab/actions/workflows/coverage.yml)

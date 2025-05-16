@@ -1,0 +1,28 @@
+name: Auto Project Sync
+
+on:
+  push:
+    paths:
+      - 'automation/**'
+      - '.github/workflows/auto_project.yml'
+  workflow_dispatch:
+
+jobs:
+  run-script:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install python-dotenv requests
+
+      - name: Run automation script
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python automation/git_proj_autov1.py

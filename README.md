@@ -1,4 +1,12 @@
 
+# SIEM Log Analysis Lab
+
+[![CI](https://github.com/tfasanya79/siem-log-analysis-lab/actions/workflows/coverage.yml/badge.svg)](https://github.com/tfasanya79/siem-log-analysis-lab/actions/workflows/coverage.yml)
+[![codecov](https://codecov.io/gh/tfasanya79/siem-log-analysis-lab/branch/main/graph/badge.svg)](https://codecov.io/gh/tfasanya79/siem-log-analysis-lab)
+
+This project is a lab for setting up a Security Information and Event Management (SIEM) system. The goal is to learn how to ingest logs from various sources, analyze them, and respond to security incidents.
+
+...
 # 🛡️ SIEM Log Analysis Lab (Wazuh + Automation + Threat Detection)
 
 Welcome to your Blue Team Security Lab! This project is designed to help you learn, build, and showcase real-world skills in:

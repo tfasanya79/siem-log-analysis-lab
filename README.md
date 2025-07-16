@@ -1,7 +1,10 @@
 # SIEM Log Analysis Lab
 
-[![CI](https://github.com/tfasanya79/siem-log-analysis-lab/actions/workflows/coverage.yml/badge.svg)](https://github.com/tfasanya79/siem-log-analysis-lab/actions/workflows/coverage.yml)
+[![CI](https://github.com/tfasanya79/siem-log-analysis-lab/actions/workflows/main.yml/badge.svg)](https://github.com/tfasanya79/siem-log-analysis-lab/actions/workflows/main.yml)
 [![codecov](https://codecov.io/gh/tfasanya79/siem-log-analysis-lab/branch/main/graph/badge.svg)](https://codecov.io/gh/tfasanya79/siem-log-analysis-lab)
+![Python Version](https://img.shields.io/badge/python-3.12.3-blue.svg)
+![License](https://img.shields.io/github/license/tfasanya79/siem-log-analysis-lab)
+![Last Commit](https://img.shields.io/github/last-commit/tfasanya79/siem-log-analysis-lab)
 
 This project is a lab for setting up a Security Information and Event Management (SIEM) system. The goal is to learn how to ingest logs from various sources, analyze them, and respond to security incidents.
 
